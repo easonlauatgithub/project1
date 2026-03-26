@@ -1,2 +1,2 @@
-call apii 1
+call api 1
 call api 2
