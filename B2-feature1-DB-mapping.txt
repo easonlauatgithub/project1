@@ -1,7 +1,7 @@
 <xml>
 <obj="name" db="NAME">
 <obj="post" db="POSITION">
-<obj="numAsString" db="NUMBER">
+<obj="num" db="NUMBER">
 <obj="nation" db="NATIONALITY">
 
 <select sql="SEARCH_PLAYER_NAME">
