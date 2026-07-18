@@ -11,7 +11,7 @@ String getPlayerPosition(){
 }
 
 String getPlayerNumber(){
- mapper.select("SEARCH_PLAYER_NUMBER").toString;
+ mapper.select("SEARCH_PLAYER_NUMBER");
 }
 
 String getPlayerNationality(){
