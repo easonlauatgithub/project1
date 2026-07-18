@@ -18,4 +18,9 @@ String getPlayerNationality(){
 	playerDao.getPlayerNationality();
 }
 
+String getPlayerClub(){
+	playerDao.getPlayerClub();
+}
+
+
 }

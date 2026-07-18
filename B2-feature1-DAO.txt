@@ -18,4 +18,8 @@ String getPlayerNationality(){
  mapper.select("SEARCH_PLAYER_NATIONALITY");
 }
 
+String getPlayerClub(){
+ mapper.select("SEARCH_PLAYER_CLUB");
+}
+
 }
