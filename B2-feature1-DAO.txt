@@ -1,0 +1,9 @@
+class playerDAO {
+
+Mapper mapper = getMapping();
+
+String getPlayerName(){
+ mapper.select("SEARCH_PLAYER_NAME");
+}
+
+}

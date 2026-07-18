@@ -2,4 +2,8 @@
 <obj="name" db="NAME">
 <obj="post" db="POSITION">
 <obj="num" db="NUMBER">
+<select>
+SELECT NAME FROM PLR_PLAYER
+</select>
+
 </xml>

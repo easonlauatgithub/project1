@@ -1,0 +1,9 @@
+class playerSvc {
+
+PlayerDAO playerDao = getPlayerDAO();
+
+String getPlayerName(){
+	playerDao.getPlayerName();
+}
+
+}
