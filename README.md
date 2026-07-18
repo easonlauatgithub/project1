@@ -1,5 +1,5 @@
 # project1
-This project will include feature1, feature2
+This project will include feature1, feature2, feature3
 add feature 1 skeleton
 add method to get player name
 add method to get player position
