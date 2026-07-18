@@ -10,7 +10,7 @@ String getPlayerPosition(){
 	playerDao.getPlayerPosition();
 }
 
-String getPlayerNumber(){
+int getPlayerNumber(){
 	playerDao.getPlayerNumber();
 }
 

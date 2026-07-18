@@ -10,7 +10,7 @@ String getPlayerPosition(){
  mapper.select("SEARCH_PLAYER_POSITION");
 }
 
-String getPlayerNumber(){
+int getPlayerNumber(){
  mapper.select("SEARCH_PLAYER_NUMBER");
 }
 
