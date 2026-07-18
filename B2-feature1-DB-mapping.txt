@@ -2,6 +2,7 @@
 <obj="name" db="NAME">
 <obj="post" db="POSITION">
 <obj="num" db="NUMBER">
+<obj="nation" db="NATIONALITY">
 
 <select sql="SEARCH_PLAYER_NAME">
 SELECT NAME FROM PLR_PLAYER
@@ -13,6 +14,10 @@ SELECT POSITION FROM PLR_PLAYER
 
 <select sql="SEARCH_PLAYER_NUMBER">
 SELECT NUMBER FROM PLR_PLAYER
+</select>
+
+<select sql="SEARCH_PLAYER_NATIONALITY">
+SELECT NATIONALITY FROM PLR_PLAYER
 </select>
 
 

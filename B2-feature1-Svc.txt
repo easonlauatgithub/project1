@@ -14,4 +14,8 @@ String getPlayerNumber(){
 	playerDao.getPlayerNumber();
 }
 
+String getPlayerNationality(){
+	playerDao.getPlayerNationality();
+}
+
 }
