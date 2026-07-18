@@ -6,4 +6,12 @@ String getPlayerName(){
 	playerDao.getPlayerName();
 }
 
+String getPlayerPosition(){
+	playerDao.getPlayerPosition();
+}
+
+String getPlayerNumber(){
+	playerDao.getPlayerNumber();
+}
+
 }

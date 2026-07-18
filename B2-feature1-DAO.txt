@@ -6,4 +6,13 @@ String getPlayerName(){
  mapper.select("SEARCH_PLAYER_NAME");
 }
 
+String getPlayerPosition(){
+ mapper.select("SEARCH_PLAYER_POSITION");
+}
+
+String getPlayerNumber(){
+ mapper.select("SEARCH_PLAYER_NUMBER");
+}
+
+
 }

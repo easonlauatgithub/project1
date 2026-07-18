@@ -2,8 +2,18 @@
 <obj="name" db="NAME">
 <obj="post" db="POSITION">
 <obj="num" db="NUMBER">
-<select>
+
+<select sql="SEARCH_PLAYER_NAME">
 SELECT NAME FROM PLR_PLAYER
 </select>
+
+<select sql="SEARCH_PLAYER_POSITION">
+SELECT POSITION FROM PLR_PLAYER
+</select>
+
+<select sql="SEARCH_PLAYER_NUMBER">
+SELECT NUMBER FROM PLR_PLAYER
+</select>
+
 
 </xml>
